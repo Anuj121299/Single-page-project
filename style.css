@@ -31,23 +31,23 @@
     justify-content: space-around;
     align-items: center;
 }
-.left{
-    border: 1px solid;
-    border-radius: 100%;
-}
 .txt h1{
     color: rgb(16, 150, 16);
-    text-align: center;
+    text-align: left;
+    font-size: 70px;
 }
 .p1{
     color: rgb(131, 142, 152);
-    text-align: center;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+    margin-top: -60px;;
 }
 .p2{
     color: rgb(16, 150, 16);
-    text-align: center;
+    text-align: left;
+
 }
-.right{
-     border: 1px solid;
-    border-radius: 100%;
+.op1{
+    border: none;
 }
