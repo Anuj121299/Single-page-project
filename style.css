@@ -46,7 +46,7 @@
     text-align: left;
     font-size: 10px;
     font-family: "Playfair Display", serif;
-    margin-top: -60px;;
+    margin-top: -60px;
 }
 .p2{
     color: rgb(12, 178, 12);
@@ -80,5 +80,50 @@
     display: flex;
     gap: 10px;
 }
-
+.productgrid{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    padding-left: 130px;
+    height: 100vh;
+}
+.name{
+    font-weight: bold;
+}
+.price{
+    color: rgb(6, 224, 119);
+    font-weight: 600;
+}
+.stars{
+    color: orange;
+}
+.View{
+    font-weight: bold;
+    font-size: 13px;
+    border: 2px solid rgb(6, 224, 119);
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+.middlebar{
+    background-color: rgb(238, 243, 247);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.txt2{
+    padding-left: 200px;
+    padding-bottom: 100PX;
+    padding-top: 100px;
+}
+.txt2 h1{
+    font-size: 50px;
+}
+.txt2 p{
+    color: rgb(131, 142, 152);
+    text-align: left;
+    font-size: 12px;
+    font-family: "Playfair Display", serif;
+    margin-top: -20px;
+}
 
