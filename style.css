@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: sticky;
+    position: sticky;   
     top: 0px;
     padding: 10px;
     background-color: white;
@@ -86,6 +86,7 @@
     grid-template-rows: repeat(2,auto);
     padding-left: 130px;
     height: 100vh;
+    
 }
 .name{
     font-weight: bold;
@@ -103,6 +104,7 @@
     border: 2px solid rgb(6, 224, 119);
     text-align: center;
     padding: 20px;
+    margin-bottom: 40px;
     background-color: white;
 }
 .middlebar{
@@ -124,6 +126,65 @@
     text-align: left;
     font-size: 12px;
     font-family: "Playfair Display", serif;
-    margin-top: -20px;
+    margin-top: -40px;
+}
+.Buy{
+    color:white;
+    background-color: rgb(6, 224, 119);
+    border: 2px solid rgb(6, 224, 119);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pro{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 50px;
+    gap: 40px;
+    align-items: center;
+
+}
+.date1{
+    background-color:rgb(6, 224, 119) ;
+    color: white;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top:-170px;
+    left: 10px;
+}
+.date2{
+    background-color:rgb(6, 224, 119) ;
+    color: white;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top:-170px;
+    left: 10px;
+}
+.date3{
+    background-color:rgb(6, 224, 119) ;
+    color: white;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top:-170px;
+    left: 10px;
+}
+.pro h1{
+    margin-top: -45px;
+    font-size: 20px;
+}
+.pro p{
+    color: rgb(131, 142, 152);
+    font-size: 13px;
+    text-align: left;
+    margin-top: -10px;
+}
+.read{
+    border: 0px;
+    color:rgb(6, 224, 119) ;
+    background-color: white;
+    
 }
 
