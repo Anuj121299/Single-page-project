@@ -44,7 +44,7 @@
 .p1{
     color: rgb(131, 142, 152);
     text-align: left;
-    font-size: 10px;
+    font-size: 13px;
     font-family: "Playfair Display", serif;
     margin-top: -60px;
 }
@@ -65,7 +65,7 @@
     font-size: 50px;
 }
 .shoebarnext p {
-    font-size: 10px;
+    font-size: 13px;
     margin-top: -40px;
     font-family: "Playfair Display", serif;
     color: rgb(131, 142, 152);
@@ -74,7 +74,7 @@
     display: flex;
     justify-content: space-around;
     font-family: "Playfair Display", serif;
-    font-size: 10px;
+    font-size: 13px;
 }
 .subfil{
     display: flex;
@@ -124,7 +124,7 @@
 .txt2 p{
     color: rgb(131, 142, 152);
     text-align: left;
-    font-size: 12px;
+    font-size: 13px;
     font-family: "Playfair Display", serif;
     margin-top: -40px;
 }
@@ -132,8 +132,10 @@
     color:white;
     background-color: rgb(6, 224, 119);
     border: 2px solid rgb(6, 224, 119);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 .pro{
     display: flex;
@@ -185,6 +187,69 @@
     border: 0px;
     color:rgb(6, 224, 119) ;
     background-color: white;
+    padding-bottom: 40px;
     
 }
+.shoefooter{
+    display: flex;
+    background-color: rgb(238, 243, 247);
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.shoefooter h1{
+    font-size: 50px;
+    margin-top: -30px;
+}
+.footstar{
+    color: orange;
+    margin-top: -30px;
+    font-size: 15px;
+}
+.para{
+    color: rgb(131, 142, 152);
+    text-align: left;
+    font-size: 13px;
+    font-family: "Playfair Display", serif;
+}
 
+.middlefooter{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.middlefooter h1{
+    font-size: 20px;
+}
+.mf{
+    color: rgb(131, 142, 152);
+    text-align: left;
+    font-size: 13px;
+    font-family: "Playfair Display", serif;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(131, 142, 152);
+    background-color: rgb(25, 24, 24);
+    padding: 50px;
+}
+.sub{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+    background-color: rgb(25, 24, 24);
+}
+.arrow{
+    background-color: rgb(25, 24, 24);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color:rgb(6, 224, 119) ;
+
+}
